@@ -1,5 +1,7 @@
 ﻿# LogonStatus
 
+**Source last updated:** 2012-07-07
+
 Legacy VB.NET utility project for checking/reporting AD logon status.
 
 ## Contents
