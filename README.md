@@ -13,6 +13,10 @@ Legacy VB.NET utility project for checking/reporting AD logon status.
 
 No third-party source attribution markers were identified during this review.
 
+## Requirements
+
+- Visual Studio 2010 or later, .NET Framework 2.0
+
 ## License
 
 MIT. See `LICENSE`.
