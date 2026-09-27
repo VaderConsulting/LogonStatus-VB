@@ -4,20 +4,31 @@ VB.NET WinForms tool that reports Active Directory logon and logoff status for a
 
 **Source last updated:** 2012-07-07
 
----
+| Field | Value |
+| --- | --- |
+| Language | VB.NET |
+| Target | .NET Framework 2.0 |
+| Output | WinForms executable |
 
-## Contents
+## Solution structure
 
-- `LogonStatus.vbproj`
-- VB source and form files in this folder
+| Project | Language | Type | Purpose |
+| --- | --- | --- | --- |
+| `LogonStatus` | VB.NET | WinForms exe | Per-user logon/logoff status across servers |
 
-## Attribution and provenance
+## How to open
 
-No third-party source attribution markers were identified during this review.
+Open the `LogonStatus.vbproj` (or solution if present) in Visual Studio.
 
 ## Requirements
 
-- Visual Studio 2010 or later, .NET Framework 2.0
+- Visual Studio 2010 or later
+- .NET Framework 2.0
+- Network access to the target servers for DirectoryServices queries
+
+## Attribution and provenance
+
+Working copy from my Historical Dev folder. No third-party source attribution markers were identified during this review.
 
 ## License
 
